@@ -17,6 +17,7 @@ a {
     overflow: hidden;
 	width: 100%;
 	border: 0;
+	text-align: center;
 }
 
 a:hover + .box,.box:hover{
