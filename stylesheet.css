@@ -2,11 +2,16 @@
 /* CSS Document */
 
 body {
-    background-color: #ffffff;
+    background-color: #300000;
 	margin: 0;
 }
            
-h1,h2,h3 {text-align: center; color:blue;}
+h1,h2,h3 {
+			text-align: center;
+			color:ghostwhite;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-stretch: extra-expanded;
+}
 			
 /*h2{
     color:black;
