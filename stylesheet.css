@@ -2,15 +2,29 @@
 /* CSS Document */
 
 body {
-    background-color: #300000;
-	margin: 0;
+    background-color: black;
+	margin-top: 100px;
 }
-           
+a {
+    color:ghostwhite;
+	text-decoration: none;
+}
+
+.box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
 h1,h2,h3 {
 			text-align: center;
 			color:ghostwhite;
-			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-			font-stretch: extra-expanded;
+			font-family: "Times New Roman";
+			font-size: 14px;
 }
 			
 /*h2{
@@ -19,9 +33,5 @@ h1,h2,h3 {
     font-size: 20px;
 	text-align: center;
 }*/
-ol {
-	align-text:left;
-	font-size: 14px;
-	font-family: "Helvetica Neue";
-}
+
 #heading {text-align: center;}
