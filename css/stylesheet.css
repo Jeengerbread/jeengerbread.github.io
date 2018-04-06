@@ -23,7 +23,7 @@ a {
 a:hover + .box,.box:hover{
     display: block;
     position: absolute;
-    top: 450px;
+    top: 400px;
     z-index: 100;
 }
 
