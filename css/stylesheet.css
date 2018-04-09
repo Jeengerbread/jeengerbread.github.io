@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	height: 1000px;
+	height: 800px;
     background-color: black;
 	margin-top: 180px;
 }
@@ -32,10 +32,10 @@ a:hover{
 }
 
 h1,h2,h3 {	
-			line-height: 1.5;
-			text-align: center;
-			font-size: 18px;
-			text-decoration: none;
+	line-height: 1.5;
+	text-align: center;
+	font-size: 18px;
+	text-decoration: none;
 }
 h6{
 	font-size: 14px;
