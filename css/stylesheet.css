@@ -2,13 +2,13 @@
 /* CSS Document */
 
 body {
+	height: 1000px;
     background-color: black;
 	margin-top: 180px;
 }
 a {
     color:ghostwhite;
 	text-decoration: none;
-	font-size: 18px;
 }
 
 .box{
@@ -31,10 +31,14 @@ a:hover{
 	color: orangered;
 }
 
-h1,h2,h3 {
+h1,h2,h3 {	
+			line-height: 1.5;
 			text-align: center;
+			font-size: 18px;
+			text-decoration: none;
 }
 h6{
+	font-size: 14px;
 	text-align: center;
 	top: 480px;
 }
