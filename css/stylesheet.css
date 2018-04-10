@@ -7,7 +7,6 @@ body {
 	margin-top: 180px;
 }
 a {
-    color:ghostwhite;
 	text-decoration: none;
 }
 
@@ -31,16 +30,24 @@ a:hover{
 	color: orangered;
 }
 
+.Bonus{
+	position: absolute;
+	text-align: bottom,right;
+	color:black;
+}
+
 h1,h2,h3 {	
 	line-height: 1.5;
 	text-align: center;
 	font-size: 18px;
 	text-decoration: none;
+	color: ghostwhite;
 }
 h6{
 	font-size: 14px;
 	text-align: center;
 	top: 480px;
+	color:orangered;
 }
 
 #heading {text-align: center;}
