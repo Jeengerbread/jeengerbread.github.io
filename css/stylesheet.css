@@ -6,9 +6,6 @@ body {
     background-color: black;
 	margin-top: 180px;
 }
-a {
-	text-decoration: none;
-}
 
 .box{
     display: none;
