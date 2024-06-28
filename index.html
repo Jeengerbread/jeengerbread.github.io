@@ -41,15 +41,14 @@
 
 <body>
 	<div class="fullscreen-bg">
-        <video loop muted autoplay class="fullscreen-bg__video">
+    <video onload="this.play();" loop muted autoplay class="fullscreen-bg__video">
 			<source src="https://dl.dropboxusercontent.com/s/f6d7w28jz60zagp/Forest.mp4?dl=1" type="video/mp4">
-            <source src="https://dl.dropboxusercontent.com/s/ziu0ihow3i1diuo/Forest.webm?dl=1" type="video/webm">
-        </video>
-		<audio loop autoplay>
+      <source src="https://dl.dropboxusercontent.com/s/ziu0ihow3i1diuo/Forest.webm?dl=1" type="video/webm">
+      <p>Your browser cannot play the provided video file.</p>
+    </video>
+		<audio onload="this.play();" loop autoplay>
 			<source src="audio/forest.mp3" type="audio/mp3">
-      <source src="audio/forest.aac">
 		</audio>
-
 </div>
 
 </body>
