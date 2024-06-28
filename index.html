@@ -41,11 +41,6 @@
       src: ['forest.mp3'],
       loop: true,
       html5:true,
-      onplayerror: function() {
-        sound.once('unlock', function() {
-          sound.play();
-        });
-      }
     });
     sound.play();
 </script>
