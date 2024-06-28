@@ -38,6 +38,16 @@
 <link rel="stylesheet" href="css/title.css">
 <title>Strange Realm</title>
 </head>
+<script src="howler.js"></script>
+<script>
+    var sound = new Howl({
+      src: ['forest.mp3'],
+      autoplay: true,
+      loop: true,
+      html5:true
+    });
+    sound.play();
+</script>
 <body>
 	<div class="fullscreen-bg">
     <video onload="this.play();" loop muted autoplay class="fullscreen-bg__video">
@@ -46,15 +56,6 @@
       <p>Your browser cannot play the provided video file.</p>
     </video>
 </div>
-<script src="howler.js"></script>
-<script>
-    var sound = new Howl({
-      src: ['forest.mp3'],
-      autoplay: true,
-      loop: true
-    });
-    sound.play();
-</script>
 
 </body>
 </html>
